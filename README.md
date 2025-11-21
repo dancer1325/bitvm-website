@@ -22,7 +22,7 @@ BitVM is the foundational element to bridge BTC to second layers such as sidecha
 - [BitVM organization on Github](https://github.com/BitVM)
 - [Tree++ overview](treeplusplus.md)
 - [Awesome BitVM](https://github.com/Rsync25/awesome-bitvm)
-
+- [Script State from Lamport Signatures](https://bitcoinmagazine.com/technical/script-state-from-lamport-signatures-)
 
 
 ### Presentations & Podcasts
