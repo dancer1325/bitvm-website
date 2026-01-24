@@ -54,6 +54,7 @@ Current members of the BitVM Alliance include (in alphabetical order):
 - [Element](https://x.com/element_labs42)
 - [Fiamma](https://x.com/fiamma_labs)
 - [GOAT network](https://www.goat.network)
+- [{ ideal }](https://ideal.group)
 - [ZeroSync](https://x.com/ZeroSync_)
 
 
