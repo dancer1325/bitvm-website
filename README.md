@@ -10,7 +10,8 @@
   - == computing paradigm /
     - express Turing-complete Bitcoin contracts
     - ❌NO changethe network’s consensus rules❌
-    - free & open source
+    - free & open source | [
+ZeroSync](https://zerosync.org) nonprofit organization
 
 ## Intro
  . Rather than executing computations on Bitcoin, they are merely verified, similarly to optimistic rollups. A prover makes a claim that a given function evaluates for some particular inputs to some specific output. If that claim is false, anyone can perform a fraud proof and punish the prover. .
@@ -69,7 +70,7 @@
 
 ## Contributors
 
-- BitVM is developed as free and open source software under the umbrella of the [ZeroSync](https://zerosync.org) nonprofit organization
+- BitVM is developed as free and open source software under the umbrella of the [
 
 ### Want to Contribute?
-- Join the [Telegram group](https://t.me/bitVM_chat)
+- [Telegram group](https://t.me/bitVM_chat)
