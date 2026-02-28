@@ -68,9 +68,6 @@ ZeroSync](https://zerosync.org) nonprofit organization
 - [ZeroSync](https://x.com/ZeroSync_)
 
 
-## Contributors
-
-- BitVM is developed as free and open source software under the umbrella of the [
 
 ### Want to Contribute?
 - [Telegram group](https://t.me/bitVM_chat)
