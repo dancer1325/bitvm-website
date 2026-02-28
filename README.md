@@ -10,13 +10,14 @@
   - == computing paradigm /
     - express Turing-complete Bitcoin contracts
     - ❌NO changethe network’s consensus rules❌
+    - free & open source
 
 ## Intro
  . Rather than executing computations on Bitcoin, they are merely verified, similarly to optimistic rollups. A prover makes a claim that a given function evaluates for some particular inputs to some specific output. If that claim is false, anyone can perform a fraud proof and punish the prover. .
 
 
 ## Implementation
-- [official BitVM implementation](https://github.com/BitVM/BitVM) in Rust
+- [official BitVM implementation](https://github.com/BitVM/BitVM) 
 - [Developer Preview](./demo/)
 
 
@@ -34,7 +35,7 @@
 
 
 ### Presentations & Podcasts
-- [BitVM3 at Bitcoin++ Istanbul](https://www.youtube.com/live/gWWxDd3mhZc?feature=shared&t=1335)
+- [Bitcoin++ Istanbul](https://www.youtube.com/live/gWWxDd3mhZc?feature=shared&t=1335)
 - [BitVM2 at Science of Blockchain Conference in Berkeley](https://www.youtube.com/live/84tBYn6qot8?feature=shared&t=5337)
 - [Robin Linus and Lukas George at Bitcoin Amsterdam](https://www.youtube.com/watch?v=rubs5SrkGsM)
 - [What is BitVM? with Robin Linus and Super Testnet (Stephan Livera Podcast)](https://www.youtube.com/watch?v=XxqQU6j6jI8)
@@ -48,11 +49,11 @@
 
 ## About BitVM Alliance
 
-The BitVM Alliance was founded by Robin Linus and Lukas George to accelerate the development and implementation of BitVM project. This strategic partnership brings together leading projects and teams dedicated to advancing BitVM development.
-
-By combining expertise and resources, the alliance aims to expedite the delivery of the first BitVM bridges while ensuring robust security and innovative solutions. The collaborative nature of the alliance enables rapid knowledge sharing, coordinated development efforts, and comprehensive peer review of critical components.
-
-Current members of the BitVM Alliance include (in alphabetical order):
+- founded by Robin Linus a
+& Lukas George
+- goal
+  - accelerate the development & implementation of BitVM project
+- members
 
 - [Alpen](https://x.com/AlpenLabs)
 - [Babylon](https://x.com/babylonlabs_io)
@@ -67,9 +68,8 @@ Current members of the BitVM Alliance include (in alphabetical order):
 
 
 ## Contributors
-The BitVM project is lead by its inventor, [Robin Linus](https://robinlinus.com), together with Lukas George and Stillsaiko. Special thanks to Super Testnet, Carsten Munk, Hakan Karakuş, Weikeng Chen, and Steven Roose for their code contributions. We're also collaborating in research projects together with Liam Eagen, Alexei Zamyatin, Distributed Lab, as well as Matteo Maffei's and Zeta Avarikioti's group at TU Vienna, and David Tse's group at Stanford.
 
-BitVM is developed as free and open source software under the umbrella of the [ZeroSync](https://zerosync.org) nonprofit organization. It is funded by research grants from Spiral, Starkware, OpenSats, Fedi, and community contributions.
+- BitVM is developed as free and open source software under the umbrella of the [ZeroSync](https://zerosync.org) nonprofit organization
 
 ### Want to Contribute?
 - Join the [Telegram group](https://t.me/bitVM_chat)
