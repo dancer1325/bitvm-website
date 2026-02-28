@@ -1,6 +1,9 @@
 # BitVM - Smarter Bitcoin Contracts
 
 - BitVM 
+  - allows
+    - bridge BTC -- to -- second layers 
+      _Examples of second layers:_ sidechains, rollups, and [zkCoins](https://gist.github.com/RobinLinus/d036511015caea5a28514259a1bab119)
   - enables a free market | second layers
     - == scale Bitcoin | billions of users
   - == computing paradigm /
@@ -10,7 +13,7 @@
 ## Intro
  . Rather than executing computations on Bitcoin, they are merely verified, similarly to optimistic rollups. A prover makes a claim that a given function evaluates for some particular inputs to some specific output. If that claim is false, anyone can perform a fraud proof and punish the prover. Using this mechanism, any computable function can be verified on Bitcoin.
 
-BitVM is the foundational element to bridge BTC to second layers such as sidechains, rollups, and [zkCoins](https://gist.github.com/RobinLinus/d036511015caea5a28514259a1bab119).
+BitVM is the foundational element to 
 
 ## Implementation
 - The [official BitVM implementation](https://github.com/BitVM/BitVM) in Rust
