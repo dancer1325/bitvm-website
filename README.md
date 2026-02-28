@@ -68,6 +68,5 @@ ZeroSync](https://zerosync.org) nonprofit organization
 - [ZeroSync](https://x.com/ZeroSync_)
 
 
-
 ### Want to Contribute?
 - [Telegram group](https://t.me/bitVM_chat)
