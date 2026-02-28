@@ -4,6 +4,7 @@
   - allows
     - bridge BTC -- to -- second layers 
       _Examples of second layers:_ sidechains, rollups, and [zkCoins](https://gist.github.com/RobinLinus/d036511015caea5a28514259a1bab119)
+    - verifying any computable function  Bitcoin
   - enables a free market | second layers
     - == scale Bitcoin | billions of users
   - == computing paradigm /
@@ -11,12 +12,11 @@
     - ❌NO changethe network’s consensus rules❌
 
 ## Intro
- . Rather than executing computations on Bitcoin, they are merely verified, similarly to optimistic rollups. A prover makes a claim that a given function evaluates for some particular inputs to some specific output. If that claim is false, anyone can perform a fraud proof and punish the prover. Using this mechanism, any computable function can be verified on Bitcoin.
+ . Rather than executing computations on Bitcoin, they are merely verified, similarly to optimistic rollups. A prover makes a claim that a given function evaluates for some particular inputs to some specific output. If that claim is false, anyone can perform a fraud proof and punish the prover. .
 
-BitVM is the foundational element to 
 
 ## Implementation
-- The [official BitVM implementation](https://github.com/BitVM/BitVM) in Rust
+- [official BitVM implementation](https://github.com/BitVM/BitVM) in Rust
 - [Developer Preview](./demo/)
 
 
