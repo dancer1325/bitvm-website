@@ -1,17 +1,13 @@
 # BitVM Developer Preview
 
-This demo showcases the latest progress of the [BitVM project](https://bitvm.org/).
-
-It presents the first real-world use case of BitVM: the complete protocol process [BitVM Bridge](https://bitvm.org/bitvm_bridge.pdf). 
-
-This demo marks a significant milestone for the BitVM project as it moves toward the next critical stage: a code audit of the foundational library.
-
+- complete protocol process [BitVM Bridge](https://bitvm.org/bitvm_bridge.pdf)
+  - == first real-world use case of BitVM
 
 # Signet Transactions
 
-A public signet([bitvmnet](https://docs.bitlayer.org/docs/BitVMBridge/BitVMNet)) is set up for the BitVM development and testing. 
- 
-People can check the transactions in public signet [explorer](https://mempool.bitvmnet.org/).
+- set Up a public signet([bitvmnet](https://docs.bitlayer.org/docs/BitVMBridge/BitVMNet)) 
+  - Reason: 🧠 BitVM development & testing🧠
+  - if you want to check the transactions -> see [public signet explorer](https://mempool.bitvmnet.org/)
 
 ## Transaction Graph
 
@@ -189,19 +185,11 @@ Assert Final is the final transaction to close all assert transactions. all the 
 SNARK verifier program is splited into leafs of a Taptree. The disprove transaction allows anyone to challenge a part of SNARK verifier program. This is possible if and only if the operator made an incorrect claim about one of the intermediary states. Anyone can read the commitments made by the operator from the execution trace and provide them as inputs to the script in one of the leaves.
 
 
-## Reproduce Demo
+## how to reproduce?
 
 
-Developers can use the following stuff to reproduce the processes in the local environment.
+- [Code base tag](https://github.com/BitVM/BitVM/releases/tag/v0.1.0-alpha)
+- [Instructions](https://github.com/BitVM/BitVM/blob/main/DEMO_INSTRUCTIONS.md)
 
 
-[Code base tag](https://github.com/BitVM/BitVM/releases/tag/v0.1.0-alpha)
-
-
-[Instructions](https://github.com/BitVM/BitVM/blob/main/DEMO_INSTRUCTIONS.md)
-
-
-
-## About
-This page is maintained by [BitVM Alliance](https://bitvm.org/#about-bitvm-alliance)
 
