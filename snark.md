@@ -1,4 +1,4 @@
-# SNARK Verifier in Bitcoin Script
+# SNARK Verifier | Bitcoin Script
 
 A plan to implement a SNARK verifier in Bitcoin Script to run it in [BitVM2](/bitvm2.md).
 
