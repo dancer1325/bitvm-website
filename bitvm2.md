@@ -1,8 +1,13 @@
 # BitVM 2: Permissionless Verification on Bitcoin
 
-The original BitVM design was limited to the two-party setting. Further works combined parallel and redundant instances to introduce multi-party configurations based on 1-of-n honesty assumptions. Major limitation of these contracts was that all verifiers had to be defined during compile time. Furthermore, the setup cost increased with the number of verifiers. This implied there was always a limited number of parties that one would have to bribe to break a contract.
+- BitVM
+  - 's design: 2-party setting
+Further works combined parallel and redundant instances to introduce multi-party configurations based on 1-of-n honesty assumptions. Major limitation of these contracts was that all verifiers had to be defined during compile time. Furthermore, the setup cost increased with the number of verifiers. This implied there was always a limited number of parties that one would have to bribe to break a contract.
 
-BitVM 2 is a novel variant in which anyone can act as verifier. This still requires a one-time setup with a 1-of-n honesty assumption, but during runtime anyone can challenge an invalid assertion without having to be part of the initial group of n. This overcomes limitations of previous schemes and improves on their trust assumptions. Furthermore, it simplifies the overall design and reduces the maximum length of the trial down to two rounds.
+- BitVM 2
+  - vs BitVM
+    - anyone can act -- as -- verifier
+ This still requires a one-time setup with a 1-of-n honesty assumption, but during runtime anyone can challenge an invalid assertion without having to be part of the initial group of n. This overcomes limitations of previous schemes and improves on their trust assumptions. Furthermore, it simplifies the overall design and reduces the maximum length of the trial down to two rounds.
 
 Bridges still additionally require some predefined set of `m` operators and at least one of them has to act honest. However, even in case of all operators being dishonest, they cannot steal any deposit but only burn them at worst. 
 
