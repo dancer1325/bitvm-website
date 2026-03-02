@@ -1,6 +1,7 @@
 # SNARK Verifier | Bitcoin Script
 
-A plan to implement a SNARK verifier in Bitcoin Script to run it in [BitVM2](/bitvm2.md).
+- goal 
+  - implement a SNARK verifier | Bitcoin Script  -- to -- run it | [BitVM2](/bitvm2.md)
 
 ## Bitcoin Script Constraints
 
@@ -8,7 +9,7 @@ A plan to implement a SNARK verifier in Bitcoin Script to run it in [BitVM2](/bi
 - Max script size: 4 MB
 - Max stack size: altstack + stack < 1000 items 
 - Max stack item size: 520 bytes
-- Max input size for arithmetic opcodes: 32-bit words
+- Max input size / arithmetic opcodes: 32-bit words
 
 ### Practical Constraints
 - Max script input in form of 32-bit words: `1000 items * 32-bit/item = 32 kB`
