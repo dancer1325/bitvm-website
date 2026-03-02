@@ -39,8 +39,9 @@ This overcomes limitations of previous schemes and improves on their trust assum
 
 - SNARK verifier
   - program representation | 1 Bitcoin Script: too large
-Implementing a Groth16 verifier would maybe result in a 20mb Script
-However, the maximum script size is Bitcoin's block size of 4mb
+
+- Implementing a Groth16 verifier: 20mb Script
+- maximum script size ==Bitcoin's block size of 4mb
 And even that size would likely be impractically large.
 
 ## Naive Solution
