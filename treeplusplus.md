@@ -1,8 +1,9 @@
 # Tree++ 
-Tree++ is a language for smarter Bitcoin contracts. The following summarizes the vision.
+- == templating language -- for -- smarter Bitcoin contracts
+- allows
+  - advanced Bitcoin Scripts
 
 ## Advanced Scripting
-At the core of Tree++ there is a templating language which can express complex Bitcoin Scripts.
 
 - Evaluate constant expressions
 - Parametrized templates
@@ -19,6 +20,7 @@ At the core of Tree++ there is a templating language which can express complex B
   - In the future maybe OP_CHECKSIGFROMSTACK
 
 ## Graphs of Transactions
+
 - Compose Tree++ scripts into potentially large Taptrees
 - Model contract logic in form of sequences and graphs of transactions
 - Statefulness
@@ -30,8 +32,8 @@ At the core of Tree++ there is a templating language which can express complex B
   - E.g. BitVM, zkp verifier, bridge
 
 ## Tooling 
-- Documentation and Tutorials
-- Online editor with examples (like https://ide.scriptwiz.app)
+- online editors
+  - _Examples:_ [ide.scriptwiz](https://ide.scriptwiz.app)
 - Package manager (Cargo)
 
 
