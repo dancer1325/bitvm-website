@@ -26,9 +26,16 @@ This overcomes limitations of previous schemes and improves on their trust assum
         - ONLY can burn the deposit
 
 ## Introduction
-For a given program `f` we want to verify that for some input `x` and output `y` the assertion `f(x) = y` holds
-For example, `f` could be a [SNARK verifier](https://bitvm.org/snark), e.g., for the Groth16 proof system
- Then `x` would be a proof and `y` is some output state for which the SNARK proves validity.
+- let's have 
+  - `f` == program
+    - _Example:_ [SNARK verifier](https://bitvm.org/snark)
+  - `x` == input
+  - `y` == output 
+- goal 
+  - hold `f(x) = y` 
+- _Example:_ Groth16 proof system
+  - `x` == proof
+  - `y` == output state / SNARK proves validity
 
 In case of a SNARK verifier the program is too large to represent it in a single Bitcoin Script
 Implementing a Groth16 verifier would maybe result in a 20mb Script
