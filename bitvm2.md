@@ -19,12 +19,21 @@ This overcomes limitations of previous schemes and improves on their trust assum
   - simplifies the overall design
   - maximum length of the trial: 2 rounds
 
-Bridges still additionally require some predefined set of `m` operators and at least one of them has to act honest. However, even in case of all operators being dishonest, they cannot steal any deposit but only burn them at worst. 
+  - bridges require SOME predefined set of `m` operators 
+    - >=1 has to act honest
+      - if ALL operators are dishonest they
+        - can NOT steal any deposit 
+        - ONLY can burn the deposit
 
 ## Introduction
-For a given program `f` we want to verify that for some input `x` and output `y` the assertion `f(x) = y` holds. For example, `f` could be a [SNARK verifier](https://bitvm.org/snark), e.g., for the Groth16 proof system. Then `x` would be a proof and `y` is some output state for which the SNARK proves validity.
+For a given program `f` we want to verify that for some input `x` and output `y` the assertion `f(x) = y` holds
+For example, `f` could be a [SNARK verifier](https://bitvm.org/snark), e.g., for the Groth16 proof system
+ Then `x` would be a proof and `y` is some output state for which the SNARK proves validity.
 
-In case of a SNARK verifier the program is too large to represent it in a single Bitcoin Script. Implementing a Groth16 verifier would maybe result in a 20mb Script. However, the maximum script size is Bitcoin's block size of 4mb. And even that size would likely be impractically large.
+In case of a SNARK verifier the program is too large to represent it in a single Bitcoin Script
+Implementing a Groth16 verifier would maybe result in a 20mb Script
+However, the maximum script size is Bitcoin's block size of 4mb
+And even that size would likely be impractically large.
 
 ## Naive Solution
 
